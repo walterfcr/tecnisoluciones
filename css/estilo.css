@@ -1,0 +1,312 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+html{
+	font-size: 16px;
+	scroll-behavior:smooth;
+}
+
+body{
+	font-family: 'Roboto';
+}
+
+img{
+	max-width: 100%;
+}
+
+h1{
+	color:#fff;
+	font-size: 4rem;
+	font-family: 'Inter';
+	
+}
+
+h2, h3, h4{
+	font-family: 'Inter';
+}
+
+.wrap{
+	width:90%;
+	margin:0 auto;
+	max-width: 1400px;
+}
+
+
+
+
+
+/*estilos menu*/
+
+.container{
+	margin:0 auto;
+	width:90%;
+	max-width: 1400px;
+}
+
+.back{
+	padding:45px 0;
+}
+
+.menu{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	z-index: 5;
+}
+
+.menu .navbar  li{
+	position: relative;
+	float:left;
+}
+
+.menu .navbar  ul{
+	float:right;
+}
+
+.menu .navbar ul li a{
+	font-family: 'Inter';
+	font-size: 18px;
+	padding:20px 30px;
+	color:#665e5e;
+	display:block;
+}
+
+.menu .navbar ul li a:hover{
+	color:#1caed0;
+}
+
+#menu{
+	display:none;
+}
+
+.menu-icono{
+	width:25px;
+}
+
+.menu label{
+	cursor: pointer;
+	display:none;
+
+}
+
+.logo img{
+	width:70%;
+}
+
+
+.inicio{
+	height: 650px;
+	width: 100%;
+	box-shadow: inset 0 0 0 1000px rgba(22, 25, 40, 0.6);
+	background-image: url(../imagenes/slide1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 10s;
+
+	animation-name: animate;
+	animation-direction: alternate-reverse;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+	animation-duration: 20s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+		0%{
+		background-image: url(../imagenes/slide2.jpg);
+	}
+		33%{
+		background-image: url(../imagenes/slide3.jpg);
+	}
+		66%{
+		background-image: url(../imagenes/slide4.jpg);
+	}
+}
+
+.inicio hr{
+    height: 20px;
+    width: 82%;
+    background-color: #f2ff2a;
+    border:none;
+}
+
+.inicioIzq p{
+	margin:70px 0 0;
+	color:#fff;
+	font-size: 1.6rem;
+}
+
+.inicioIzq{
+	padding:150px 0 0 ;
+	width:50%;
+	float:left;
+}
+
+.inicioDer{
+	padding:170px 0 0 ;
+	width:40%;
+	float:right;
+}
+
+.inicioDer h3{
+	color:#6ecbe1;
+
+}
+
+.inicioDer p{
+	padding:20px 0 30px;
+	color:#fff;
+	font-size: 1rem;
+}
+
+
+.contenido-banner-derecha-box a{
+    color:#fff;
+    font-size:18px;
+	text-decoration: none;
+}
+
+.contenido-banner-derecha-box{
+    width:200px ;
+    background-color: #f92891;
+    overflow:hidden;
+    padding:15px 0;
+    margin:45px 0 ;
+    text-align: center;
+
+}
+
+.contenido-banner-derecha-box:hover {
+    background-color: #e53d91;
+}
+
+#nosotros{
+	padding:100px 0 ;
+}
+
+#nosotros h2{
+	padding:0 0 50px;
+	text-align: center;
+	color:#72acb9;
+	font-size: 3rem;
+}
+
+#nosotros p{
+	color:#4c4747;
+}
+
+.wrap2{
+	width:60%;
+	margin:0 auto;
+}
+
+#productos{
+	padding:100px 0 ;
+}
+
+.contenedor-productos{
+    display:flex;
+    justify-content: space-evenly;  
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.columna-productos{
+    padding: 0 0 50px;
+    width:40%;
+}
+
+#productos p{
+	color:#4c4747;
+	padding:0 15%;
+}
+
+#productos h2{
+	padding:0 0 50px;
+	text-align: center;
+	color:#72acb9;
+	font-size: 3rem;
+}
+
+#productos h3{
+	padding:0;
+	color:#777373;
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+#productos img{
+	width:60%;
+	display:block;
+	margin:50px auto;
+}
+
+#servicios{
+	padding:100px 0 ;
+	background-color: #e9eff3;
+}
+
+.contenedor-servicios{
+    display:flex;
+    justify-content: space-evenly;  
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.columna-servicios{
+    padding: 0;
+    width:20%;
+}
+
+#servicios p{
+	color:#4c4747;
+}
+
+#servicios h2{
+	padding:0 0 50px;
+	text-align: center;
+	color:#72acb9;
+	font-size: 3rem;
+}
+
+#servicios h3{
+	padding:40px 0;
+	color:#128099;
+	text-align: center;
+}
+
+.icono{
+	text-align: center;
+}
+
+
+#contacto{
+	padding:100px 0 ;
+	background-color: #e9eff3;
+}
+
+#contacto h2{
+	padding:0 0 50px;
+	text-align: center;
+	color:#72acb9;
+	font-size: 3rem;
+}
+
+.goto-top{
+    position:fixed;
+    bottom:30px;
+    right:20px;
+    width:75px;
+    height:50px;
+}
