@@ -1,5 +1,3 @@
-
-
 /*Menu*/
 @media(max-width:768px){
 	.menu{
@@ -30,11 +28,44 @@
 }
 
 
+/*Inicio*/
+@media(min-width:320px) and (max-width:768px){
+	h1{
+		font-size: 3rem;
+		text-align: center;
+	}
+
+	.hr-inicio hr{
+		margin:10px auto 0;
+		display:block;
+	}
+	.inicioIzq{
+		width:100%;
+	}
+	.inicioDer{
+		width:100%;
+	}
+
+	.inicioDer p{
+		color:#4c4747;
+	}
+
+	.inicio-box{
+		margin:50px auto;
+	}
+}
+
+
+
 /*Servicios*/
 @media(min-width:320px) and (max-width:768px){
 	.columna-servicios{
 		padding: 0 5% 80px;
 		width:90% !important;
+	}
+
+	#servicios h2{
+		font-size: 2rem;
 	}
 }
 

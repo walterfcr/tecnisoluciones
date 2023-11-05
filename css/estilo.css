@@ -171,13 +171,13 @@ h2, h3, h4{
 }
 
 
-.contenido-banner-derecha-box a{
+.inicio-box a{
     color:#fff;
     font-size:18px;
 	text-decoration: none;
 }
 
-.contenido-banner-derecha-box{
+.inicio-box{
     width:200px ;
     background-color: #f92891;
     overflow:hidden;
@@ -187,7 +187,7 @@ h2, h3, h4{
 
 }
 
-.contenido-banner-derecha-box:hover {
+.inicio-box:hover {
     background-color: #e53d91;
 }
 
