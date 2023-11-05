@@ -49,4 +49,16 @@
 	#productos p{
 		padding:0 5%;
 	}
+
+	#productos h2{
+		font-size: 2rem;
+	}
+
+	#productos h3{
+		font-size: 1.5rem;
+	}
+
+	#productos img{
+		margin:30px auto;
+	}
 }
