@@ -19,10 +19,7 @@
 		right:0;
 		background-color: black;
 		display:none;
-		
 	}
-
-
 	.menu .navbar ul li{
 		width:100%;
 	}
@@ -30,8 +27,26 @@
 	#menu:checked ~ .navbar{
 		display:initial;
 	}
-
 }
 
 
+/*Servicios*/
+@media(min-width:320px) and (max-width:768px){
+	.columna-servicios{
+		padding: 0 5% 80px;
+		width:90% !important;
+	}
+}
 
+
+/*Productos*/
+@media(min-width:320px) and (max-width:768px){
+	.columna-productos{
+		padding: 0 0 80px;
+		width:90% !important;
+	}
+
+	#productos p{
+		padding:0 5%;
+	}
+}
