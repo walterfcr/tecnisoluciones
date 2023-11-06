@@ -61,6 +61,17 @@
 	}
 }
 
+/*acerca*/
+@media(min-width:320px) and (max-width:768px){
+	.columnaAcerca{
+		padding: 0 5% 80px;
+		width:90% !important;
+	}
+
+
+}
+
+
 
 
 /*Servicios*/
