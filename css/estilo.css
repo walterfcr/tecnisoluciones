@@ -42,18 +42,18 @@ h2, h3, h4{
 
 /*estilos menu*/
 
-.container{
+#container{
+	position: fixed;
 	margin:0 auto;
 	width:90%;
 	max-width: 1400px;
 }
 
-.back{
+#back{
 	padding:45px 0;
 }
 
 .menu{
-	position: fixed;
 	top:0;
 	left:0;
 	right:0;
@@ -62,6 +62,8 @@ h2, h3, h4{
 	justify-content: space-between;
 	z-index: 5;
 }
+
+
 
 .menu .navbar  li{
 	position: relative;
@@ -98,7 +100,7 @@ h2, h3, h4{
 
 }
 
-.logo img{
+#logo img{
 	width:70%;
 }
 
