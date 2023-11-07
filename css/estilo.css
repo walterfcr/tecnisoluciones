@@ -323,19 +323,6 @@ lottie-player {
 	text-align: center;
 }
 
-
-#contacto{
-	padding:100px 0 ;
-	background-color: #e9eff3;
-}
-
-#contacto h2{
-	padding:0 0 50px;
-	text-align: center;
-	color:#72acb9;
-	font-size: 3rem;
-}
-
 .goto-top{
     position:fixed;
     bottom:30px;
@@ -365,8 +352,21 @@ lottie-player {
 
 /*estilos formulario*/
 
+#contacto{
+	padding:60px 0 ;
+	background-color: #e9eff3;
+}
+
+#contacto h2{
+	padding:0 0 50px;
+	text-align: center;
+	color:#72acb9;
+	font-size: 3rem;
+}
+
 .contactoWrap{
     margin:0 auto;
+	display: block;
     width:70%;
 }
 
