@@ -193,7 +193,8 @@ p{
 }
 
 #nosotros{
-	padding:100px 0 0;
+	padding:100px 0 ;
+	
 }
 
 #nosotros h2{
@@ -205,31 +206,32 @@ p{
 
 #nosotros p{
 	color:#4c4747;
+	padding:0 0 50px;
 }
 
 .acerca{
 	display:flex;
     justify-content: space-evenly;  
     flex-wrap: wrap;
-    padding: 0 0 100px;
+   
 }
 
 .columnaAcerca{
-    padding: 0 0 50px;
     width:40%;
 }
 
 .columnaAcerca h3{
-	padding:0;
+	padding:20px 0;
 	color:#777373;
 	text-align: center;
 	font-size: 1.8rem;
 }
 
 lottie-player {
-	width:50%;
+	width:230px;
 	margin:0 auto;
 	display:block;
+	height:230px;
 }
 
 .wrap2{
@@ -280,7 +282,7 @@ lottie-player {
 
 #servicios{
 	padding:100px 0 ;
-	background-color: #e9eff3;
+	background-color: #e8e9eb;
 }
 
 .contenedor-servicios{
@@ -333,6 +335,6 @@ lottie-player {
     position:fixed;
     bottom:30px;
     right:20px;
-    width:75px;
-    height:50px;
+    width:40px;
+    height:40px;
 }
