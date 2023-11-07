@@ -99,6 +99,14 @@ p{
 
 }
 
+#logo2{
+	display:none;
+}
+
+#logo2 img{
+	width:50%;
+}
+
 #logo img{
 	width:70%;
 }
