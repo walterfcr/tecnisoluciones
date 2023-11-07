@@ -160,10 +160,62 @@
   </section>
 
   <section id="contacto">
-    <div class="wrap">
-    <h2>Contácto</h2>
+
+    <div class="contactoWrap sectionForm d-flex justify-content-center align-items-center">
+
+      <div class="containerForm">
+        <h2 class="contacto">Contáctenos</h2>
+        <hr>
+        <div class="formP">
+          <p class="contactoP1">Tienes alguna pregunta o propuesta? Te gustaría iniciar un proyecto conmigo?</p>
+          <p class="contactoP2">No dudes en contactarme!</p>
+        </div>
+        <form id="form2">
+          <div class="formRow">
+            <div class="colForm">
+              <div class="inputBox">
+                <input id="nombreTxt" type="text" name="name" required="required">
+                <span class="text nombre">Nombre</span>
+                <span class="line"></span>
+              </div>
+            </div>
+
+            <div class="colForm">
+              <div class="inputBox">
+                <input id="emailTxt" type="text" name="email" required="required">
+                <span class="text">Email</span>
+                <span class="line"></span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="formRow">
+            <div class="colForm">
+              <div class="inputBox textarea">
+                <textarea id="mensajeTxt" name="message" required="required"></textarea>
+                <span class="text mensaje">Mensaje</span>
+                <span class="line"></span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="formRow">
+            <div class="colForm">
+              <p id="mensajeAlert"></p>
+              <input id="btnSend" class="contacto-box" type="button" value="Enviar">
+            </div>
+
+          </div>
+        </form>
+      </div>
     </div>
+    
   </section>
+
   <a data-scroll id="flechabtn" class="goto-top efectoHover" href="#inicio" title="ir al inicio" onclick="topFunction()">
     <img src="imagenes/flecha.png" class="img-fluid" alt="tiraflecha">    
  </a>
