@@ -110,3 +110,21 @@
 		margin:30px auto;
 	}
 }
+
+/*contacto*/
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .contactoWrap{
+        width:100%;
+    }
+
+    .sectionForm .containerForm {
+        width: 80%;
+        padding: 0;
+    }
+
+    .colForm{
+        text-align: center;
+    }
+
+}
