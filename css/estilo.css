@@ -199,7 +199,7 @@ p{
 }
 
 #nosotros{
-	padding:100px 0 ;
+	padding:100px 0 50px;
 	
 }
 
@@ -246,7 +246,7 @@ lottie-player {
 }
 
 #productos{
-	padding:100px 0 ;
+	padding:100px 0 50px;
 }
 
 #productos hr{
@@ -562,4 +562,14 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .contacto-box:hover{
     background-color: #e53d91;
+}
+
+footer{
+    background-color: #242222;
+    color:#fff;
+    padding:20px 0;
+}
+
+footer p{
+    text-align: center;
 }
