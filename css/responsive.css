@@ -153,9 +153,28 @@
 }
 
 @media(min-width:412px) and (max-width:469px){
+
+	h1{
+		font-size: 1.8rem !important;
+	}
+
+	.inicio p{
+		font-size: 1rem !important;
+	}
+
+	.inicio hr{
+		height: 15px;
+		width: 70% !important;
+
+	}
 	.inicio{
-		height: 1250px;
-		}
+		height: 1000px;
+	}
+
+	.inicioDer img{
+		width:40%;
+		padding:60px 30px;
+	}
 }
 
 @media(min-width:470px) and (max-width:494px){
