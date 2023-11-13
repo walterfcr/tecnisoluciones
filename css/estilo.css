@@ -62,9 +62,7 @@ p{
 	align-items:center;
 	justify-content: space-between;
 	z-index: 5;
-}
-
-
+}  
 
 .menu .navbar  li{
 	position: relative;
@@ -94,7 +92,6 @@ p{
 .menu label{
 	cursor: pointer;
 	display:none;
-
 }
 
 #logo2{
