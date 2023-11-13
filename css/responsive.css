@@ -90,15 +90,68 @@
 
 
 /*Inicio*/
+
+@media(min-width:376px) and (max-width:411px){
+
+	h1{
+		font-size: 1.8rem !important;
+	}
+
+	.inicio p{
+		font-size: 1rem !important;
+	}
+
+	.inicio hr{
+		height: 15px;
+		width: 70% !important;
+
+	}
+
+	.inicio{
+		height: 1000px;
+	}
+
+	.inicioDer img{
+		width:40%;
+		padding:60px 30px;
+	}
+}
+
+@media(min-width:412px) and (max-width:469px){
+	.inicio{
+		height: 1250px;
+		}
+}
+
+@media(min-width:470px) and (max-width:494px){
+	.inicio{
+		height: 1150px;
+		}
+}
+
+@media(min-width:495px) and (max-width:600px){
+	.inicio{
+		height: 1000px;
+		}
+}
+
+@media(min-width:601px) and (max-width:768px){
+	.inicio{
+		height: 950px;
+		}
+}
+
+@media(min-width:769px) and (max-width:800px){
+	.inicio{
+		height: 900px;
+		}
+}
+
 @media(min-width:320px) and (max-width:800px){
 	h1{
 		font-size: 3rem;
 		text-align: center;
 	}
-
-	.inicio{
-		height: 850px;
-		}
 
 	.hr-inicio hr{
 		margin:10px auto 0;
