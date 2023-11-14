@@ -303,6 +303,25 @@
 	}
 }	
 
+@media(min-width:769px) and (max-width:1024px){
+	.inicio {background-image: url(../imagenes/slide1x.jpg);
+	}
+
+	@keyframes animate{
+		0%{
+		background-image: url(../imagenes/slide2x.jpg);
+	}
+		33%{
+		background-image: url(../imagenes/slide3x.jpg);
+	}
+		66%{
+		background-image: url(../imagenes/slide4x.jpg);
+	}
+}
+}
+
+
+
 @media(min-width:1025px) and (max-width:1280px){
 
 	.inicioDer img{
@@ -311,12 +330,40 @@
 }
 
 /*acerca*/
-@media(min-width:320px) and (max-width:768px){
+
+@media(min-width:320px) and (max-width:449px){
 	.columnaAcerca{
-		padding: 0 5% 80px;
-		width:90% !important;
+		padding: 0 0 80px;
+		width:100% !important;
 	}
 
+	#nosotros h2{
+		font-size: 1.6rem !important;
+		
+	}
+
+	#nosotros p{
+		padding:0;
+		
+	}
+
+}
+
+@media(min-width:450px) and (max-width:768px){
+	.columnaAcerca{
+		padding: 0 0 80px;
+		width:100% !important;
+	}
+
+	#nosotros h2{
+		font-size: 2rem;
+		
+	}
+
+	#nosotros p{
+		padding:0;
+		
+	}
 
 }
 

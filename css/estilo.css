@@ -110,7 +110,8 @@ p{
 .inicio{
 	height: 650px;
 	width: 100%;
-	box-shadow: inset 0 0 0 1000px rgba(39, 41, 49, 0.7);
+	/*box-shadow: inset 0 0 0 1000px rgba(8, 17, 52, 0.7);*/
+    box-shadow: inset 0 0 0 1000px rgba(11, 18, 46, 0.6);
 	background-image: url(../imagenes/slide1.jpg);
 	background-size: cover;
 	background-position: center;
