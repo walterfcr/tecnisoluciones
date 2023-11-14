@@ -310,18 +310,18 @@
 }	
 
 @media(min-width:769px) and (max-width:1024px){
-	.inicio {background-image: url(../imagenes/slide1x.jpg);
+	.inicio {background-image: url(../imagenes/slide1x.webp);
 	}
 
 	@keyframes animate{
 		0%{
-		background-image: url(../imagenes/slide2x.jpg);
+		background-image: url(../imagenes/slide2x.webp);
 	}
 		33%{
-		background-image: url(../imagenes/slide3x.jpg);
+		background-image: url(../imagenes/slide3x.webp);
 	}
 		66%{
-		background-image: url(../imagenes/slide4x.jpg);
+		background-image: url(../imagenes/slide4x.webp);
 	}
 }
 }
