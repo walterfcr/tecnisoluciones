@@ -41,6 +41,12 @@ p{
 	line-height: 25px;
 }
 
+header{
+    background-color:#dfeff2;
+
+
+}
+
 /*estilos menu*/
 
 #container{
@@ -310,7 +316,7 @@ lottie-player {
 
 #servicios{
 	padding:100px 0 ;
-	background-color: #e8e9eb;
+	background-color: #dfeff2;
 }
 
 #servicios hr{
@@ -395,7 +401,7 @@ lottie-player {
 
 #contacto{
 	padding:100px 0 ;
-	background-color: #e9eff3;
+	background-color: #dfeff2;
 }
 
 #contacto h2{
